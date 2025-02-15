@@ -35,5 +35,5 @@ sudo docker run hello-world
 ```
 sudo usermod -aG docker ubuntu
 ```
-
+Now We have to logout Ec2 instance and login back
 **Note: If you are planning to install Docker on any other distributions of linux or other operating systems like Windows, please follow the official documentation for steps.**
