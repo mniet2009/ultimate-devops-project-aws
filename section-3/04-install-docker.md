@@ -31,5 +31,8 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 ```
 sudo docker run hello-world
 ```
+### if we Don't want to use sudo then run below command
+```
+sudo usermod -aG docker ubuntu
 
 **Note: If you are planning to install Docker on any other distributions of linux or other operating systems like Windows, please follow the official documentation for steps.**
