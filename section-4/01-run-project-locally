@@ -15,4 +15,14 @@ then we have to run below commands
 ```
 df -h
 ```
-
+lsblk
+## Now we have to Install Cloud guest install 
+```
+sudo apt install cloud-guest-utils
+sudo growpart /dev/xvda 1
+sudo resize2fs /dev/xvda1
+```
+##now you can see file size is grow and now you can run command to test App locally
+```
+docker compose up
+```
