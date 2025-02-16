@@ -11,7 +11,7 @@ Video of the lecture is self explanatory.
 To Resolve this , first we have to go to Instance--- Storage and Increase the size from 8 GB to 30GB, 
 it will take some time to modify(15-20 minutes) when status is ##in-use##
 then we have to run below commands
-``` 
+```
 df-h
 ```
 
