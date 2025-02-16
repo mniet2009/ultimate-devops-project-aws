@@ -14,4 +14,7 @@ then we have to run below commands
 ```
 df-h
 ```
+```
+df -h
+```
 
